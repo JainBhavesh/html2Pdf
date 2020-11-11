@@ -32,7 +32,7 @@
             <ion-icon name="trash-outline" style="color:red;font-size: 25px;" (click)="remove(i)"></ion-icon>
           </div>
           <ion-item>
-            <ion-input [(ngMode)]="d.dis" type=text placeholder="Image Discription"></ion-input>
+            <ion-input [ngModelOptions]="{standalone: true}" [(ngModel)]="d.dis" type=text placeholder="Image Discription"></ion-input>
           </ion-item>
           <ion-item *ngIf="d.image">
             <img [src]="d.image">
