@@ -1,5 +1,7 @@
 {
   "name": "html2Pdf",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
